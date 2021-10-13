@@ -1,0 +1,25 @@
+.quote-box__container {
+  width: 345px;
+  height: fit-content;
+  padding: 0px 70px;
+  border-left: 8px solid #F7DF94;
+  text-align: left;
+  margin: 7.3em auto 0px auto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+
+  .quote-box__tex {
+    font-family: Raleway;
+    font-style: normal;
+    color: #000000;
+  }
+}
+
+.quote-box__quote-list {
+  margin: 30px auto 70px auto;
+}
+
+.last {
+  margin: 30px auto 35px auto
+}

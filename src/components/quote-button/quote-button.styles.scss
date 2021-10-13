@@ -1,0 +1,52 @@
+.quote-button__container {
+  width: 370px;
+  height: 100px;
+  padding: 0px 30px;
+  background-color: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  margin: 6.7em auto;
+  cursor: pointer;
+  transition: .65s ease-out .1s;
+
+  .quote-button__info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    .quote-button__author {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 28px;
+      color: #4F4F4F;
+      margin-bottom: 4px;
+    }
+
+    .quote-button__genre {
+      font-family: Raleway;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      color: #828282;
+    }
+  }
+
+  .quote-button__arrow-icon {
+    width: 30px;
+    height: 30px;
+    color: inherit;
+  }
+
+  &:hover {
+    background-color: #333333;
+
+    .quote-button__author {
+      color: #F2F2F2;
+    }
+  }
+}

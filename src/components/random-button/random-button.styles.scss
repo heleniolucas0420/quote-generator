@@ -1,0 +1,53 @@
+.random-button {
+  position: absolute;
+  width: 110px;
+  height: 37px;
+  border: none;
+  display: flex;
+  font-weight: 400;
+  background-color: inherit;
+  justify-content: space-between;
+  align-items: center;
+  top: 8px;
+  right: 35px;
+  cursor: pointer;
+  padding: 0px 10px;
+
+  .random-button__text {
+    font-family: Raleway;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 120%;
+    color: #333333;
+  }
+
+  .spin {
+    animation: spin .5s linear infinite;
+    
+    @keyframes spin {
+      0% {
+        transform: rotate(0turn);
+      }
+  
+      100% {
+        transform: rotate(1turn);
+      }
+    }
+  }
+
+  &:hover {
+    .random-button__icon {
+      animation: spin .85s ease;
+    
+      @keyframes spin {
+        0% {
+          transform: rotate(0turn);
+        }
+    
+        100% {
+          transform: rotate(1turn);
+        }
+      }
+    }
+  }
+}

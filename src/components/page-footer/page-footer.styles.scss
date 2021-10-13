@@ -1,0 +1,22 @@
+.page-footer__container {
+  position: absolute;
+  width: 100vw;
+  height: 18px;
+  bottom: 14px;
+  margin: 0 auto;
+
+  .page-footer__credits {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    color: #828282;
+
+    .page-footer__user-name {
+      font-weight: bolder;
+      color: #636363;;
+    }
+  }
+}
