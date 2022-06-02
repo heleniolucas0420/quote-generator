@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/quote-generator/static/css/main.780d2667.chunk.css",
+    "main.js": "/quote-generator/static/js/main.c815e340.chunk.js",
+    "main.js.map": "/quote-generator/static/js/main.c815e340.chunk.js.map",
+    "runtime-main.js": "/quote-generator/static/js/runtime-main.3aa7fb67.js",
+    "runtime-main.js.map": "/quote-generator/static/js/runtime-main.3aa7fb67.js.map",
+    "static/js/2.60f55f3b.chunk.js": "/quote-generator/static/js/2.60f55f3b.chunk.js",
+    "static/js/2.60f55f3b.chunk.js.map": "/quote-generator/static/js/2.60f55f3b.chunk.js.map",
+    "static/js/3.12bcca58.chunk.js": "/quote-generator/static/js/3.12bcca58.chunk.js",
+    "static/js/3.12bcca58.chunk.js.map": "/quote-generator/static/js/3.12bcca58.chunk.js.map",
+    "index.html": "/quote-generator/index.html",
+    "static/css/main.780d2667.chunk.css.map": "/quote-generator/static/css/main.780d2667.chunk.css.map",
+    "static/js/2.60f55f3b.chunk.js.LICENSE.txt": "/quote-generator/static/js/2.60f55f3b.chunk.js.LICENSE.txt",
+    "static/media/arrow_right_alt_white_24dp.884205be.svg": "/quote-generator/static/media/arrow_right_alt_white_24dp.884205be.svg",
+    "static/media/autorenew_black_18dp.2767fb6e.svg": "/quote-generator/static/media/autorenew_black_18dp.2767fb6e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3aa7fb67.js",
+    "static/js/2.60f55f3b.chunk.js",
+    "static/css/main.780d2667.chunk.css",
+    "static/js/main.c815e340.chunk.js"
+  ]
+}
